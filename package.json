@@ -16,7 +16,7 @@
     "react-scripts": "3.4.3"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node ./dist/server.js",
     "build": "react-scripts build",
     "test": "jest",
     "eject": "react-scripts eject",
@@ -26,8 +26,8 @@
     "jest": "jest --init",
     "flow-fix": "flow codemod annotate-exports --write --repeat src/components",
     "dev:build-server": "webpack --config webpack.server.js --mode=development -w",
-    "dev:start": "nodemon ./dist/server.js",
-    "dev": "npm-run-all --parallel build dev:*"
+    "prod": "npm-run-all --parallel build prod:*",
+    "heroku-postbuild": "webpack --config webpack.server.js --mode=production"
   },
   "eslintConfig": {
     "extends": "react-app"
