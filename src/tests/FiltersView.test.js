@@ -33,7 +33,7 @@ describe("Filter view test cases",() => {
         });
         
         const expectedLocationObject = {
-            pathname: "",
+            pathname: "/search",
             search:  `?year=${YEAR_VALUES[3]}`
         }
         expect(filterViewWrapper.props().getSpaceXLaunchList).toBeCalled();
@@ -48,7 +48,7 @@ describe("Filter view test cases",() => {
         });
         
         const expectedLocationObject = {
-            pathname: "",
+            pathname: "/search",
             search:  `?${SEARCH_STRING_YEAR}=${YEAR_VALUES[3]}&${SEARCH_STRING_LAUNCH}=${SUCCESSFULL_LAUNCH_VALUES[0]}`
         }
         expect(filterViewWrapper.props().getSpaceXLaunchList).toBeCalled();
@@ -63,7 +63,7 @@ describe("Filter view test cases",() => {
         });
         
         const expectedLocationObject = {
-            pathname: "",
+            pathname: "/search",
             search:  `?${SEARCH_STRING_YEAR}=${YEAR_VALUES[3]}&${SEARCH_STRING_LAUNCH}=${SUCCESSFULL_LAUNCH_VALUES[0]}&${SEARCH_STRING_LANDING}=${SUCCESSFULL_LANDING_VALUES[1]}`
         }
         expect(filterViewWrapper.props().getSpaceXLaunchList).toBeCalled();
