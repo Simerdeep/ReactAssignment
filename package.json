@@ -17,16 +17,11 @@
   },
   "scripts": {
     "start": "node ./dist/server.js",
+    "start-react": "react-scripts start",
     "build": "react-scripts build",
     "test": "jest",
-    "eject": "react-scripts eject",
     "lint": "eslint \"src/**\"",
-    "lint:fix": "eslint \"src/**\" --fix",
     "flow": "flow",
-    "jest": "jest --init",
-    "flow-fix": "flow codemod annotate-exports --write --repeat src/components",
-    "dev:build-server": "webpack --config webpack.server.js --mode=development -w",
-    "prod": "npm-run-all --parallel build prod:*",
     "heroku-postbuild": "react-scripts build && webpack --config webpack.server.js --mode=production"
   },
   "eslintConfig": {
