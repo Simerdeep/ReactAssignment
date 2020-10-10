@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports["Filter view test cases should render 3 filter button view 1"] = "ReactWrapper {}";
+
+exports["Filter view test cases should render the snapshot for filter view 1"] = "ReactWrapper {}";

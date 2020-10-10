@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports["Filter button view test cases should call on click method of button 1"] = "ReactWrapper {}";
+
+exports["Filter button view test cases should render the snapshot for filter view 1"] = "ReactWrapper {}";

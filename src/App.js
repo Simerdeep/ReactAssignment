@@ -1,24 +1,29 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+//@flow
 
-function App() {
+import type {Element} from "React";
+import React from "react";
+import "./css/App.css";
+import TopView from "./components/TopView";
+import { FOOTER_LABEL, SPACEXLAUNCH_PROGRAM_LABEL } from "./AppLabels";
+
+/**
+ * Component to hold main view of the app
+ *
+ * @returns {Element<"div">}
+ */
+function App(): Element<"div"> {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <h1>{SPACEXLAUNCH_PROGRAM_LABEL}</h1>
+      
+      <TopView />
+      
+      <div className="footer">
+        {FOOTER_LABEL}
+      </div>
+      
     </div>
   );
 }

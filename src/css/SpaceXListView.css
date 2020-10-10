@@ -1,0 +1,34 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background: white;
+    margin: 0 8px 8px 8px;
+}
+
+.missionTitle{
+    font-weight: 700;
+    color: #660099;
+}
+
+.spacexValue{
+    color:#000099;
+    margin-left: 5px;
+}
+
+.spaceXimage{
+    background: #F5F5F5;
+    width: 100%;
+    height: auto;
+}
+
+.spaceXimagebox{
+    background: #F5F5F5;
+    min-height: 200px;
+}
+
+
+
+.spaceXView {
+    display: flex;
+    flex-wrap: wrap;
+}

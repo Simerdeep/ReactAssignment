@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: #F5F5F5;
+  margin:0;
+  padding:0;
+}
+
+.active {
+  background-color: #5e9145 !important;
+}
+
+.button {
+  background-color: #ccf1b9; /* Green */
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  padding: 8px;
+  margin: 4px 16px 4px 16px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.App {
+  margin: 8px;
+}
+
+.align-center{
+  text-align: center;
+}
+
+.footer{
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  margin: 8px;
+}
+
+.loader {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #60acdf; /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
