@@ -20,7 +20,7 @@ function App(): Element<"div"> {
       
       <TopView />
       
-      <div className="footer">
+      <div className="footer font-weight-bold">
         {FOOTER_LABEL}
       </div>
       

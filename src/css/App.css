@@ -1,8 +1,9 @@
 * {
   box-sizing: border-box;
+  
 }
 
-html {
+body {
   background: #F5F5F5;
   margin:0;
   padding:0;
@@ -35,8 +36,10 @@ html {
   left: 0;
   bottom: 0;
   width: 100%;
+  background: #F5F5F5;
   text-align: center;
-  margin: 8px;
+  padding: 8px;
+  position: fixed;
 }
 
 .loader {

@@ -88,7 +88,7 @@ const SpaceXListView = ({
                         
                         return (
                             <div className="card col-3" key={key}>
-                                
+
                                 <div className="spaceXimagebox">
                                     <img src={data.links.mission_patch} alt="SpaceX" className="spaceXimage"/>
                                 </div>
@@ -100,7 +100,7 @@ const SpaceXListView = ({
                                                 {
                                                     config.heading ?
                                                     <p>
-                                                        <b>{config.heading}</b> :  
+                                                        <span className="font-weight-bold">{config.heading}</span> :  
                                                         <span className="spacexValue">
                                                             { getFieldValue(data,config)}
                                                         </span>

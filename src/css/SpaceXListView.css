@@ -6,8 +6,12 @@
 }
 
 .missionTitle{
-    font-weight: 700;
+    font-weight: bold;
     color: #660099;
+}
+
+.font-weight-bold{
+    font-weight: bold;
 }
 
 .spacexValue{
@@ -25,8 +29,6 @@
     background: #F5F5F5;
     min-height: 200px;
 }
-
-
 
 .spaceXView {
     display: flex;
