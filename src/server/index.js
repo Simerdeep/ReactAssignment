@@ -15,7 +15,7 @@ import App from "../App";
 const PORT = process.env.PORT || 3006;
 const app = express();
 
-app.get("/", (req, res) => {
+app.get("*", (req, res) => {
   
   const app = ReactDOMServer.renderToString(<Router location={req.url} ><App /></Router>);
 
