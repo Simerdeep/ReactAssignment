@@ -27,7 +27,7 @@
     "flow-fix": "flow codemod annotate-exports --write --repeat src/components",
     "dev:build-server": "webpack --config webpack.server.js --mode=development -w",
     "prod": "npm-run-all --parallel build prod:*",
-    "heroku-postbuild": "webpack --config webpack.server.js --mode=production"
+    "heroku-postbuild": "react-scripts build && webpack --config webpack.server.js --mode=production"
   },
   "eslintConfig": {
     "extends": "react-app"
