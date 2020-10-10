@@ -47,6 +47,7 @@ Builds the server side bundle to the dist folder using webpack.
 ![Screenshot](./Screenshots/Default-View.png)
 ![Screenshot](./Screenshots/Filter-1.png)
 ![Screenshot](./Screenshots/Filter-2.png)
+![Screenshot](./Screenshots/Filter-3.png)
 
 
 
