@@ -15,7 +15,9 @@ import App from "../App";
 const PORT = process.env.PORT || 3006;
 const app = express();
 
-app.get("/", (req, res) => {
+app.use(express.static(path.resolve("build")));
+
+app.get("/*", (req, res) => {
   
   const app = ReactDOMServer.renderToString(<Router location={req.url} ><App /></Router>);
 
@@ -32,7 +34,6 @@ app.get("/", (req, res) => {
   });
 });
   
-app.use(express.static(path.resolve("build")));
 
 app.listen(PORT, () => {
   
