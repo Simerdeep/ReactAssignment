@@ -53,13 +53,13 @@ export const TopView = (props: Props): Node => {
     return (
        <>
 
-            <div className="col-2 leftpanel">
+            <div className="col-2 left-panel">
                 <FiltersView 
                     getSpaceXLaunchList={getSpaceXLaunchList}
                 />
             </div>
 
-            <div className="col-10">
+            <div className="col-10 right-panel">
                 {
                     isLoading ? 
                     <Loader />

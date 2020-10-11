@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-  
 }
 
 body {
@@ -32,13 +31,23 @@ body {
   text-align: center;
 }
 
+.header{
+  margin-top: auto;
+  margin-left: 15px;
+}
+
+.main-heading{
+  font-size: 24px;
+  font-weight: bold;
+}
+
 .footer{
   left: 0;
   bottom: 0;
   width: 100%;
   background: #F5F5F5;
   text-align: center;
-  padding: 4px;
+  padding: 2px;
   position: fixed;
 }
 

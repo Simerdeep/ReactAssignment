@@ -16,9 +16,13 @@ function App(): Element<"div"> {
   return (
     <div className="App">
 
-      <h1>{SPACEXLAUNCH_PROGRAM_LABEL}</h1>
+      <div className="header">
+        <span className="main-heading">{SPACEXLAUNCH_PROGRAM_LABEL}</span>
+      </div>
       
-      <TopView />
+      
+        <TopView />
+     
       
       <div className="footer font-weight-bold">
         {FOOTER_LABEL}

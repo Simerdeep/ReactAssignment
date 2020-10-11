@@ -42,6 +42,10 @@
     .col-10 {width: 72%;}
 }
 
-.leftpanel{
-    margin-bottom: 16px;
+.left-panel {
+    margin-bottom: 8px;
+}
+
+.right-panel {
+    margin-bottom: 8px;
 }
