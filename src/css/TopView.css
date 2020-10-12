@@ -8,17 +8,17 @@
     width: 100%;
 }
 
-@media (min-width: 769px) and (max-width: 1024px) {
-    .col-2 { width: 21%}
-    .col-3 {width: 22%;}
-    .col-10 {width: 78.33%;}
+@media (min-width: 701px) and (max-width: 1024px) {
+    .col-2 { width: 35%}
+    .col-3 {width: 40%;}
+    .col-10 {width: 65%;}
 }
 
 @media (min-width: 1025px)  {
     /* For desktop: */
     .col-1 {width: 8.33%;}
     .col-2 {width: 16.66%;}
-    .col-3 {width: 23.5%;}
+    .col-3 {width: 22.5%;}
     .col-4 {width: 33.33%;}
     .col-5 {width: 41.66%;}
     .col-6 {width: 50%;}
@@ -34,12 +34,6 @@
     .button{
         width: 100px
     }
-}
-
-@media (min-width: 469px) and (max-width: 768px){
-    .col-2{ width: 28%}
-    .col-3 {width: 30%;}
-    .col-10 {width: 72%;}
 }
 
 .left-panel {
